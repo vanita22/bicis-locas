@@ -51,7 +51,7 @@
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 10px;
+  padding: 5px;
   font-size: 16px;
 }
 
@@ -102,4 +102,44 @@
   top: 10px;
 }
 
+form#sr-only{
+margin:auto;
+background: #BDBDBD;
+color: black;
+font-size: auto;
+padding: auto;
+width: auto;
+border:solid 10px LightSteelBlue;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+}
 
+form#sr-only input{
+font-size:15px;
+background: white;
+border:solid 1px #BDBDBD;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+float: right;
+margin-right: auto;
+width: auto;
+}
+
+form#sr-only fieldset {
+border: none;
+} 
+
+form#sr-only ol li {
+line-height: 25px;
+list-style: none;
+}
+
+form#sr-only [required]{
+border:solid 1px red;
+} 
+
+input:required {
+outline: 1px solid red;
+}
